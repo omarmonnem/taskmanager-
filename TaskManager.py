@@ -1,5 +1,5 @@
 def view():
-    print('Viewing tasks...')
+    print('Viewing tasks:')
     with open ('tasks.txt', 'r' , encoding='utf-8') as file:
         tasks=file.readlines()
     i=1
@@ -11,7 +11,7 @@ def view():
 
 
 def delete():
-    print('Deleting task...')
+    print('Deleting task:')
     #View all tasks
     with open ('tasks.txt', 'r' , encoding='utf-8') as file:
         tasks=file.readlines()
